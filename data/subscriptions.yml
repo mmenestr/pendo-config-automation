@@ -53,3 +53,6 @@ subscriptions:
     "Red Hat OpenShift - Link: Cores":
       selectors:
         - '{} a:contains("Cores")'
+    "Create wizard - Button: Next":
+      selectors:
+        - '{} .pf-c-button.pf-m-primary:contains("Next")'
