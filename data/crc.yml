@@ -16,6 +16,9 @@ crc:
         - /?azure-openshift-activation
   features:
     _scope: '[data-ouia-app-id="landing"]'
+    "Settings COG":
+      selectors:
+        - 'button#SettingsMenu.pf-c-dropdown__toggle'
     "Selector: Beta switcher":
       selectors:
         - '{} [data-ouia-component-id="Use the beta release"]'
